@@ -9,7 +9,8 @@ double fu(double x) {
 }
 
 int main() {
-	std::ifstream ifs{ "untitled.nn" };
+	std::string fileName{ "C:\\Users\\Matthew\\Desktop\\Code\\C\\++\\Neuralnet\\untitled.nn" };
+	std::ifstream ifs{ fileName };
 	Network n{ ifs };
 	std::vector<double> inp;
 	std::vector<double> outs;
